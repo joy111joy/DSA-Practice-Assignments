@@ -60,7 +60,7 @@ public class DoubleDimensionArray {
     public void delete(int row, int col) {
         if (row >= 0 && row < rows && col >= 0 && col < cols) {
             System.out.println("Deleted element at position (" + row + ", " + col + ")");
-            arr[row][col] = 0; // Reset to default value
+            arr[row][col] = 0; 
         } else {
             System.out.println("Invalid index for deletion.");
         }
